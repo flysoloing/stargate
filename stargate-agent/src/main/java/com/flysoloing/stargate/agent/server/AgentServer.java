@@ -39,7 +39,7 @@ public class AgentServer {
         this.serverConfiguration = new AgentServerConfiguration();
     }
 
-    public boolean start() {
+    public boolean startup() {
         //根据证书配置信息来配置SSL证书上下文
         final SslContext sslContext;
         if (serverConfiguration != null) {
@@ -86,7 +86,7 @@ public class AgentServer {
         return true;
     }
 
-    public boolean stop() {
+    public boolean shutdown() {
         return false;
     }
 }
