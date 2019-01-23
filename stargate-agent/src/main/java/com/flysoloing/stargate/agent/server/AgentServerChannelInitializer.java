@@ -6,7 +6,7 @@ import io.netty.channel.socket.SocketChannel;
 
 /**
  * @author laitao
- * @since 2017-04-11 15:35:32
+ * @date 2017-04-11 15:35:32
  */
 public class AgentServerChannelInitializer extends ChannelInitializer<SocketChannel> {
 

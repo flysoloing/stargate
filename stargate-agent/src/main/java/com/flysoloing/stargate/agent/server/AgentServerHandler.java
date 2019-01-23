@@ -7,7 +7,7 @@ import org.slf4j.LoggerFactory;
 
 /**
  * @author laitao
- * @since 2017-04-11 15:35:07
+ * @date 2017-04-11 15:35:07
  */
 public class AgentServerHandler extends SimpleChannelInboundHandler {
 

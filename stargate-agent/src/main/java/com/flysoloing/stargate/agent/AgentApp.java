@@ -4,7 +4,7 @@ import com.flysoloing.stargate.agent.server.AgentServer;
 
 /**
  * @author laitao
- * @since 2017-04-11 15:11:16
+ * @date 2017-04-11 15:11:16
  */
 public class AgentApp {
 
